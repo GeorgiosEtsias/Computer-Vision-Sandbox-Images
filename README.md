@@ -37,14 +37,28 @@ A detailed description of the project and its individual components can be found
 A graphical outline of the investigation
 
 ## Image pre-processing
-The mean value of light intensity for all colours in each of the aforementioned homogeneous images was calculated. Subsequently the red (R), green (G), blue (B) and greyscale LI of every pixel was divided by the meanLI giving the values of a Homogenization Factor for each pixel. By averaging the values of these factors for the three homogeneous aquifers, the effect of non-uniform backlighting was isolated from the random deviation caused by each individual bead. Dividing any given image with the values of MHF led to the successful normalization of its LI. 
+
+Current part filters out the impact of back lighting in the experimental images by formulating a novel variable name Mean Homogenization Factor. This significantly helps neural training in the next stages of the investigation.
 
 Scripts: [MeanHomoFactorCalculator.m]()
 
 Datasets: subset1.mat, subset2.mat, subset3.mat, subset4.mat
 
-
 ## Classification
+
+This part derives the heterogeneous structure (strata) of the test aquifers by conducting classification analysis on freshwater-only test images.
+
+### Classification training
+
+Scripts: ClassificationTrainingData.m (prepares data for neural training), ANNClassifiationGenerator.m (trains on parallel a deep classification ANN)
+
+Datasets: subset4.mat (used as the training dataset, containing 3 freshater-only aquifer images, one for every utilized bead size)
+
+### Classification prediction
+
+Scripts: ClassificationData.m (prepares data for testing),  ANNPrediction.m (executes the neural prediction), ANNPredictionProbability.m (executes the neural prediction while further post-processing it to get optimum results)
+
+Datasets: ANNclassification.mat (pre-trained deep classificstion neural network)
 
 ## Regression
 
