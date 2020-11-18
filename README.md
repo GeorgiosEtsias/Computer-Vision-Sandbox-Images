@@ -37,6 +37,12 @@ A detailed description of the project and its individual components can be found
 A graphical outline of the investigation
 
 ## Image pre-processing
+The mean value of light intensity for all colours in each of the aforementioned homogeneous images was calculated. Subsequently the red (R), green (G), blue (B) and greyscale LI of every pixel was divided by the meanLI giving the values of a Homogenization Factor for each pixel. By averaging the values of these factors for the three homogeneous aquifers, the effect of non-uniform backlighting was isolated from the random deviation caused by each individual bead. Dividing any given image with the values of MHF led to the successful normalization of its LI. 
+
+Scripts: [MeanHomoFactorCalculator.m]()
+
+Datasets: subset1.mat, subset2.mat, subset3.mat, subset4.mat
+
 
 ## Classification
 
