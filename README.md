@@ -52,15 +52,40 @@ This part derives the heterogeneous structure (strata) of the test aquifers by c
 
 Scripts: ClassificationTrainingData.m (prepares data for neural training), ANNClassifiationGenerator.m (trains on parallel a deep classification ANN)
 
-Datasets: subset4.mat (used as the training dataset, containing 3 freshater-only aquifer images, one for every utilized bead size)
+Data: subset4.mat (used as the training dataset, containing 3 freshater-only aquifer images, one for every utilized bead size)
+
+Necessary variables: MeanHomofactorRGB.mat derived from the execution of MeanHomoFactorCalculator.m
 
 ### b) Classification prediction
 
 Scripts: ClassificationData.m (prepares data for testing),  ANNPrediction.m (executes the neural prediction), ANNPredictionProbability.m (executes the neural prediction while further post-processing it to get optimum results)
 
-Datasets: ANNclassification.mat (pre-trained deep classificstion neural network)
+Data: ANNclassification.mat (pre-trained deep classificstion neural network), testdataset.mat (3 stratified test aquifers)
+
+Necessary variables: MeanHomofactorRGB.mat derived from the execution of MeanHomoFactorCalculator.m
 
 ## Regression
+This part is executed after the classification analysis and it derives the saltwater concnentration fields in the investigated test aquifers.
+
+### a) Regression training
+
+Scripts: RegressionTrainingData.m (prepares data for neural training), ANNTrainingRegression.m (trains on parallel a regression ANN)
+
+Data: Cal780G.mat, Cal1090G.mat, Cal1325G.mat (green (G) light intensity values for each one of the utilized bead sizes, each subset includes the 8 calibration concentration images) 
+
+### b) Regression prediction
+
+Scripts: RegressionTestData.m (prepares data for testing),  ANNPredictionRegression.m (executes the neural prediction),
+
+Data: ANNregression.mat (pre-trained regression neural network), Str10907801090.mat (aquifer heterogenous structure derived from the classification analysis of the previous section), Layered3SW0.mat, Layered3SW100.mat, Layered3Test1.mat (Green (G) light instensity values of saline intrusion test images in a heterogeneous aquifer)
+
+### c) Genetic algorithm optimization
+
+Scripts: 
+
+Data: 
+
+Necessary variables: 
 
 ## Common error
 
