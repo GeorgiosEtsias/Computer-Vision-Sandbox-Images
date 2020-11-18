@@ -1,18 +1,18 @@
 # Computer-Vision-Sandbox-Images
 ## Table of contents
-[1) Citing this work](#1.-Citing-this-ork)
+- [Citing this work](#1.-Citing-this-ork)
 
-[2) Compatibility](#2.-compatibility)
+- [Compatibility](#2.-compatibility)
 
-[3) Project overview](#3.-project-overview)
+- [Project overview](#3.-project-overview)
 
-4) Image pre-processing
+- Image pre-processing
 
-5) Classification
+- Classification
 
-6) Regression
+- Regression
 
-7) Common errors – out of memory
+- Common errors – out of memory
 
 ## 1. Citing this work
 
