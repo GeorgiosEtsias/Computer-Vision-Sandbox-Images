@@ -1,10 +1,10 @@
 # Computer-Vision-Sandbox-Images
 ## Table of contents
-[1) Citing this work](#1.Citing-this-ork)
+[1) Citing this work](#1.-Citing-this-ork)
 
-[2) Compatibility](#2.compatibility)
+[2) Compatibility](#2.-compatibility)
 
-[3) Project overview](#3.project-overview)
+[3) Project overview](#3.-project-overview)
 
 4) Image pre-processing
 
