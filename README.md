@@ -1,4 +1,4 @@
-# Computer-Vision-Sandbox-Images
+# Application of computer vision on laboratory sandbox investigations 
 ## Table of contents
 - [Citing this work](#citing-this-work)
 
