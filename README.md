@@ -36,7 +36,7 @@ A detailed description of the project and its individual components can be found
 ![alt text](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/Figures/Fig1.PNG)
 A graphical outline of the investigation
 
-## [Image pre-processing](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/tree/main/1%20Image%20pre-processing)
+## Image pre-processing
 
 Current part filters out the impact of back lighting in the experimental images by formulating a novel variable name Mean Homogenization Factor. This significantly helps neural training in the next stages of the investigation.
 
@@ -48,17 +48,17 @@ Datasets: subset1.mat, subset2.mat, subset3.mat, subset4.mat
 
 This part derives the heterogeneous structure (strata) of the test aquifers by conducting classification analysis on freshwater-only test images.
 
-### a) Classification training
+### a) [Classification training](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/tree/main/2%20Classification/2.1%20ClassificationTraining)
 
-Scripts: ClassificationTrainingData.m (prepares data for neural training), ANNClassifiationGenerator.m (trains on parallel a deep classification ANN)
+Scripts: [ClassificationTrainingData.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/2%20Classification/2.1%20ClassificationTraining/ClassificationTrainingData.m) (prepares data for neural training), [ANNClassifiationGenerator.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/2%20Classification/2.1%20ClassificationTraining/ANNClassifiationGenerator.m) (trains on parallel a deep classification ANN)
 
 Data: subset4.mat (used as the training dataset, containing 3 freshater-only aquifer images, one for every utilized bead size)
 
 Necessary variables: MeanHomofactorRGB.mat derived from the execution of MeanHomoFactorCalculator.m
 
-### b) Classification prediction
+### b) [Classification prediction](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/tree/main/2%20Classification/2.2%20Classification%20Prediction)
 
-Scripts: ClassificationData.m (prepares data for testing),  ANNPrediction.m (executes the neural prediction), ANNPredictionProbability.m (executes the neural prediction while further post-processing it to get optimum results)
+Scripts: [ClassificationData.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/2%20Classification/2.2%20Classification%20Prediction/ClassificationData.m) (prepares data for testing),  [ANNPrediction.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/2%20Classification/2.2%20Classification%20Prediction/ANNPrediction.m) (executes the neural prediction), [ANNPredictionProbability.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/2%20Classification/2.2%20Classification%20Prediction/ANNPredictionProbability.m) (executes the neural prediction while further post-processing it to get optimum results)
 
 Data: ANNclassification.mat (pre-trained deep classificstion neural network), testdataset.mat (3 stratified test aquifers)
 
