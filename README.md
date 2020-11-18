@@ -4,7 +4,7 @@ Works in accordance with the following MATLAB toolboxes:
 [Deep Learning Toolbox](https://uk.mathworks.com/products/deep-learning.html), [Global Optimization Toolbox](https://uk.mathworks.com/products/global-optimization.html?s_tid=srchtitle), [Image Processing Toolbox](https://uk.mathworks.com/products/image.html?s_tid=srchtitle), [Statistics and Machine Learning Toolbox](https://uk.mathworks.com/products/statistics.html?s_tid=srchtitle), [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html?s_tid=srchtitle), [Optimization Toolbox](https://uk.mathworks.com/products/optimization.html?s_tid=srchtitle)
 
 ## Table of contents
-1) Citing this work:
+[1) Citing this work](#1.Citing-this-ork)
 2) Compatibility
 3) Project overview
 4) Image pre-processing
@@ -12,7 +12,7 @@ Works in accordance with the following MATLAB toolboxes:
 6) Regression
 7) Common errors – out of memory
 
-## 1) Citing this work:
+## 1. Citing this work
 
 This project is part of the Saline Intrusion in Coastal Aquifers ([SALINA](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R019258/1)) research project. 
 
