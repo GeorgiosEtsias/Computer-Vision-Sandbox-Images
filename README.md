@@ -1,8 +1,8 @@
 # Computer-Vision-Sandbox-Images
 
 Works in accordance with the following MATLAB toolboxes:
-Deep Learning Toolbox, Global Optimization Toolbox, Image Processing Toolbox, Statistics and Machine Learning Toolbox, Parallel Computing Toolbox, Optimization Toolbox
-Computer-Vision-Sandbox-Images
+[Deep Learning Toolbox](https://uk.mathworks.com/products/deep-learning.html), [Global Optimization Toolbox](https://uk.mathworks.com/products/global-optimization.html?s_tid=srchtitle), [Image Processing Toolbox](https://uk.mathworks.com/products/image.html?s_tid=srchtitle), [Statistics and Machine Learning Toolbox](https://uk.mathworks.com/products/statistics.html?s_tid=srchtitle), [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html?s_tid=srchtitle), [Optimization Toolbox](https://uk.mathworks.com/products/optimization.html?s_tid=srchtitle)
+
 ## Table of contents
 1) Citing this work:
 2) Compatibility
