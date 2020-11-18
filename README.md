@@ -6,13 +6,13 @@
 
 - [Project overview](#project-overview)
 
-- Image pre-processing
+- [Image pre-processing](#image-pre-processin)
 
-- Classification
+- [Classification](#classification)
 
-- Regression
+- [Regression](#regression)
 
-- Common errors – out of memory
+- [Common error](#common-error)
 
 ## Citing this work
 
@@ -33,4 +33,14 @@ Deriving saltwater concentrations from the values of light intensity is a long-e
 
 ![alt text](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/Figures/Fig1.PNG)
 A graphical outline of the investigation
+
+## Image pre-processing
+
+## Classification
+
+## Regression
+
+## Common error
+
+
 
