@@ -17,10 +17,7 @@
 ## Citing this work
 
 This project is part of the Saline Intrusion in Coastal Aquifers ([SALINA](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R019258/1)) research project. 
-
-Data acquisition and analysis was conducted in Queen’s University Belfast (2019-2020). 
-
-Funding was provided by EPSRC Standard Research (Grant No. EP/R019258/1).
+Data acquisition and analysis was conducted in Queen’s University Belfast (2019-2020). Funding was provided by EPSRC Standard Research (Grant No. EP/R019258/1).
 
 If you use Computer-Vision-Sandbox-Images as part of your workflow in a scientific publication, please consider citing the repository with the following DOI:
 
