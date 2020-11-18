@@ -22,7 +22,7 @@ Data acquisition and analysis was conducted in Queen’s University Belfast (201
 
 Funding was provided by EPSRC Standard Research (Grant No. EP/R019258/1).
 
-If you use Computer-Vision-Laboratory-Sandbox-Images as part of your workflow in a scientific publication, please consider citing the repository with the following DOI:
+If you use Computer-Vision-Sandbox-Images as part of your workflow in a scientific publication, please consider citing the repository with the following DOI:
 
 Etsias, G.; Hamill, G.A.; Benner, E.M.; Águila, J.F.; McDonnell, M.C.; Flynn, R.; Ahmed, A.A. Optimizing Laboratory Investigations of Saline Intrusion by Incorporating Machine Learning Techniques. Water 2020, 12, 2996. DOI: [10.3390/w12112996](https://www.mdpi.com/2073-4441/12/11/2996).  
 
