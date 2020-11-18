@@ -1,10 +1,10 @@
 # Computer-Vision-Sandbox-Images
 ## Table of contents
-- [Citing this work](##1.-Citing-this-ork)
+- [Citing this work](#citing-this-work)
 
-- [Compatibility](##2.-compatibility)
+- [Compatibility](#compatibility)
 
-- [Project overview](##3.-project-overview)
+- [Project overview](#project-overview)
 
 - Image pre-processing
 
@@ -14,7 +14,7 @@
 
 - Common errors – out of memory
 
-## 1. Citing this work
+## Citing this work
 
 This project is part of the Saline Intrusion in Coastal Aquifers ([SALINA](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R019258/1)) research project. 
 
@@ -26,10 +26,10 @@ If you use Computer-Vision-Laboratory-Sandbox-Images as part of your workflow in
 
 Etsias, G.; Hamill, G.A.; Benner, E.M.; Águila, J.F.; McDonnell, M.C.; Flynn, R.; Ahmed, A.A. Optimizing Laboratory Investigations of Saline Intrusion by Incorporating Machine Learning Techniques. Water 2020, 12, 2996. DOI: [10.3390/w12112996](https://www.mdpi.com/2073-4441/12/11/2996).  
 
-## 2. Compatibility
+## Compatibility
 
 Works in accordance with the following MATLAB toolboxes:
 [Deep Learning Toolbox](https://uk.mathworks.com/products/deep-learning.html), [Global Optimization Toolbox](https://uk.mathworks.com/products/global-optimization.html?s_tid=srchtitle), [Image Processing Toolbox](https://uk.mathworks.com/products/image.html?s_tid=srchtitle), [Statistics and Machine Learning Toolbox](https://uk.mathworks.com/products/statistics.html?s_tid=srchtitle), [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html?s_tid=srchtitle), [Optimization Toolbox](https://uk.mathworks.com/products/optimization.html?s_tid=srchtitle)
 
-## 3. Project overview
+## Project overview
 Deriving saltwater concentrations from the values of light intensity is a long-established image processing practice in laboratory scale investigations of saline intrusion. The current paper presents a novel methodology that employs the predictive ability of machine learning algorithms in order to determine saltwater concentration fields. The proposed approach consists of three distinct parts, image pre-processing, ground profile classification (bead structure recognition) and saltwater field generation (regression). It minimizes the need for aquifer-specific calibrations, significantly shortening the experimental procedure by up to 50% of the time required. A series of typical saline intrusion experiments were conducted in homogeneous and heterogeneous aquifers, consisting of glass beads of varying sizes, to recreate the necessary laboratory data. An innovative method of distinguishing and filtering out the common experimental error introduced by both backlighting and the optical irregularities of the glass bead medium was formulated. This enabled the acquisition of quality predictions by classical, easy-to-use machine learning techniques, such as feedforward Artificial Neural Networks, using a limited amount of training data, proving the applicability of the procedure. 
