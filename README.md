@@ -36,11 +36,11 @@ A detailed description of the project and its individual components can be found
 ![alt text](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/Figures/Fig1.PNG)
 A graphical outline of the investigation
 
-## Image pre-processing
+## [Image pre-processing](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/tree/main/1%20Image%20pre-processing)
 
 Current part filters out the impact of back lighting in the experimental images by formulating a novel variable name Mean Homogenization Factor. This significantly helps neural training in the next stages of the investigation.
 
-Scripts: [MeanHomoFactorCalculator.m]()
+Scripts: [MeanHomoFactorCalculator.m](https://github.com/GeorgiosEtsias/Computer-Vision-Sandbox-Images/blob/main/1%20Image%20pre-processing/MeanHomoFactorCalculator.m)
 
 Datasets: subset1.mat, subset2.mat, subset3.mat, subset4.mat
 
