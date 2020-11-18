@@ -48,13 +48,13 @@ Datasets: subset1.mat, subset2.mat, subset3.mat, subset4.mat
 
 This part derives the heterogeneous structure (strata) of the test aquifers by conducting classification analysis on freshwater-only test images.
 
-### Classification training
+### a) Classification training
 
 Scripts: ClassificationTrainingData.m (prepares data for neural training), ANNClassifiationGenerator.m (trains on parallel a deep classification ANN)
 
 Datasets: subset4.mat (used as the training dataset, containing 3 freshater-only aquifer images, one for every utilized bead size)
 
-### Classification prediction
+### b) Classification prediction
 
 Scripts: ClassificationData.m (prepares data for testing),  ANNPrediction.m (executes the neural prediction), ANNPredictionProbability.m (executes the neural prediction while further post-processing it to get optimum results)
 
