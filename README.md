@@ -25,7 +25,7 @@ Etsias, G.; Hamill, G.A.; Benner, E.M.; Águila, J.F.; McDonnell, M.C.; Flynn, R
 
 ## Compatibility
 
-Works in accordance with the following MATLAB toolboxes:
+The algorithms of this repository utilize functions present in the following MATLAB toolboxes:
 [Deep Learning Toolbox](https://uk.mathworks.com/products/deep-learning.html), [Global Optimization Toolbox](https://uk.mathworks.com/products/global-optimization.html?s_tid=srchtitle), [Image Processing Toolbox](https://uk.mathworks.com/products/image.html?s_tid=srchtitle), [Statistics and Machine Learning Toolbox](https://uk.mathworks.com/products/statistics.html?s_tid=srchtitle), [Parallel Computing Toolbox](https://uk.mathworks.com/products/parallel-computing.html?s_tid=srchtitle), [Optimization Toolbox](https://uk.mathworks.com/products/optimization.html?s_tid=srchtitle)
 
 ## Project overview
@@ -90,5 +90,6 @@ Data: PredictionC0.m, PredictionC100.m (ANN prediction results for the 24 calibr
 
 ## Common error
 
+When neural training based relatively big datasets (similar to the ones upoaded in this repository) is attempted, matlab might return an out-og-memory error. In the conference paper titled [The effect of colour depth and image resolution on laboratory scale study of aquifer saltwater intrusion](https://www.researchgate.net/publication/343976955_The_effect_of_colour_depth_and_image_resolution_on_laboratory_scale_study_of_aquifer_saltwater_intrusion) our research team proved that in the laboratory studies of saltwater intrusion, images of reduced dimension can still recreate high quality saltwater concentration fields. The imeresize.m built in matlab function is an easy way of modifying the available datasets. 
 
 
