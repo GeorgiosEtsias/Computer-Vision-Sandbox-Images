@@ -6,7 +6,7 @@
 
 - [Project overview](#project-overview)
 
-- [Image pre-processing](#image-pre-processin)
+- [Image pre-processing](#image-pre-processing)
 
 - [Classification](#classification)
 
