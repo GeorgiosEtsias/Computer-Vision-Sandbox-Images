@@ -112,6 +112,6 @@ RealSW,mat (the actual calibration concentration of the 24 images, used to evalu
 
 When neural training using relatively big datasets (similar to the ones in this repository) is attempted, MATLAB might return an out-of-memory error. 
 
-In the conference paper titled ['The effect of colour depth and image resolution on laboratory scale study of aquifer saltwater intrusion'](https://www.researchgate.net/publication/343976955_The_effect_of_colour_depth_and_image_resolution_on_laboratory_scale_study_of_aquifer_saltwater_intrusion) our research team proved that in the laboratory studies of saltwater intrusion, images of reduced dimension can still recreate high quality saltwater concentration fields. The [imeresize.m](https://uk.mathworks.com/help/images/ref/imresize.html) built in MATLAB function is an easy way of modifying the available datasets. 
+In the conference paper titled ['The effect of colour depth and image resolution on laboratory scale study of aquifer saltwater intrusion'](https://www.researchgate.net/publication/343976955_The_effect_of_colour_depth_and_image_resolution_on_laboratory_scale_study_of_aquifer_saltwater_intrusion) our research team proved that in the laboratory studies of saltwater intrusion, images of reduced dimension can still recreate high quality saltwater concentration fields. The [imeresize.m](https://uk.mathworks.com/help/images/ref/imresize.html) built in MATLAB function is an easy way of modifying the available datasets. .
 
 
